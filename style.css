@@ -1,7 +1,3 @@
-.background_1 {
-  display: background;
-}
-
-img.office {
-  background-size: cover;
+img {
+  justify-content: flex-start;
 }
