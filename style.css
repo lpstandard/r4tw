@@ -1,3 +1,8 @@
-img {
-  justify-content: flex-start;
+.header-carousel-item {
+  height: 450px;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
 }
