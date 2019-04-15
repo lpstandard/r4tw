@@ -6,3 +6,7 @@
   background-size: cover;
   background-position: center center;
 }
+
+.text-md-dark {
+  color: #333;
+}
