@@ -32,6 +32,8 @@
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"
     ></script>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>r4tw</title>
   </head>
   <body>
@@ -39,7 +41,6 @@
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="./images/RunforTaiwan-FACEBOOK-02.jpg" width="50" height="50" class="d-inline-block align-top" alt="">
-                    
                 </a>
                   <button
                   class="navbar-toggler"
@@ -52,7 +53,6 @@
                   >
                     <span class="navbar-toggler-icon"></span>
                   </button>
-            
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                       <li class="nav-item ">
@@ -115,6 +115,28 @@
                         </li>
                       </li>
                     </ul>
+                    <!-- <ul class="nav justify-content-end"> -->
+                      <span class="nav-item" >
+                        <a class="nav-link" style="color:white" href="https://www.facebook.com/run4tw/">
+                          <i class="fab fa-facebook"></i>
+                        </a>
+                      </span>
+                      <span class="nav-item" >
+                        <a class="nav-link" style="color:white" href="https://www.youtube.com/channel/UCWtKwmzJ_NsZo4nSs5U1xsQ/featured">
+                            <i class="fab fa-youtube"></i>                          
+                        </a>
+                      </span>
+                      <span class="nav-item">
+                        <a class="nav-link" style="color:white" href="https://www.facebook.com/run4tw/">
+                          <i class="fab fa-line"></i>
+                        </a>
+                      </span>
+                      <span class="nav-item">
+                        <a class="nav-link" style="color:white" href="https://www.facebook.com/run4tw/">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </span>
+                    <!-- </ul> -->
             </div>
       </div>
     </nav>
@@ -203,7 +225,7 @@
       </div>
     </div>
 
-    <section class="bg-info py-5 text-white">
+    <section class="bg-info p-5 text-white">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -226,15 +248,15 @@
 
     <section class="container-fluid py-5 bg-light" style="position: relative">
       <div class="row">
-        <div class="col-md-5 bg-cover" style="position: absolute; top:0; bottom: 0; background-image: url('./images/runner_4.jpg')">
+        <div class="col-md-5 p-5 bg-cover" style="position: absolute; top:0; bottom: 0; background-image: url('./images/runner_4.jpg')">
         </div>
-      <div class="container py-5">
-        <div class="row justify-content-end text-md-dark py-5">
-          <div class="col-md-7 bg-light">
-            <h3>Enjoy the amazing scene and culture of Taiwan by running!</h3>
+        <div class="container py-5">
+          <div class="row justify-content-end text-md-dark py-5">
+            <div class="col-md-6 bg-light">
+              <h3>Enjoy the amazing scene and culture of Taiwan by running!</h3>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </section>
 
@@ -251,32 +273,46 @@
                 Let's keep in touch!
               </h3>
             </div>
-            <form action="">
+            <form action="" class="needs-validation" novalidate>
               <div class="form-group">
                 <label for="">Name*</label>
-                <input type="text" class="form-control" id="username" placeholder="Please enter your name">
+                <input type="text" class="form-control" id="username" placeholder="Please enter your name" required>
+                  <div class="invalid-feedback">
+                    Please enter your name
+                  </div>
                 <label for="">Phone*</label>
-                <input type="text" class="form-control" id="userphone" placeholder="Please enter your phone number">
+                <input type="number" class="form-control" id="userphone" placeholder="Please enter your phone number" required>
+                  <div class="invalid-feedback">
+                      Please enter your phone
+                    </div>
                 <label for="">Email*</label>
-                <input type="text" class="form-control" id="usermail" placeholder="Please enter your email address">
+                <input type="email" class="form-control" id="usermail" placeholder="name@example.com" required>
+                <div class="invalid-feedback">
+                    Please enter a valid email address
+                  </div>
                 <label for="">Message</label>
-                <input type="text" class="form-control" id="usermsg" style="height: 100px">
+                <textarea type="text" class="form-control" id="usermsg" style="height: 100px"></textarea>
               </div>
               <div class="text-right">
                 <button type="button" class="btn btn-secondary">Cancel</button>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </div>
             </form>
+
           </div>
         </div>
       </div>
     </section>
 
 
-    <nav class="navbar navbar-dark bg-dark py-5" >
-      <span class="navbar-text">
-        Copyright &copy; 2019 Biji Enterprise Co.Ltd. All right reserved.
-      </span>
+    <nav class="navbar navbar-dark bg-dark py-5">
+      <div class="container navbar-text" text-center>
+        <div class="row">
+          <section class="" text-center>
+            Copyright &copy; 2019 Biji Enterprise Co.Ltd. All right reserved.
+          </section>
+        </div>
+      </div>
     </nav>
 
   </body>
