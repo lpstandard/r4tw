@@ -10,3 +10,8 @@
 .text-md-dark {
   color: #333;
 }
+
+.jumbotron-bg {
+  background-image: url("./images/runner_4.jpg");
+  background-size: cover;
+}
