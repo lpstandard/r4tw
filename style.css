@@ -25,3 +25,17 @@
 section.py-5.bg-light {
   margin-top: -2em;
 }
+
+#tian {
+  background-image: url("./images/tianzhong_2019.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.quotation-mark {
+  margin-bottom: -0.5em;
+  font-weight: bold;
+  font-size: 50px;
+  color: dark;
+  font-family: "Times New Roman", Georgia, Serif;
+}
