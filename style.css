@@ -1,5 +1,5 @@
 .header-carousel-item {
-  height: 450px;
+  height: 550px;
 }
 
 .bg-cover {
@@ -14,4 +14,31 @@
 .jumbotron-bg {
   background-image: url("./images/runner_4.jpg");
   background-size: cover;
+<<<<<<< HEAD
+=======
+  background-position: center center;
+  min-height: 400px;
+}
+
+.bg-lighter {
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+section.py-5.bg-light {
+  margin-top: -2em;
+}
+
+#tian {
+  background-image: url("./images/tianzhong_2019.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.quotation-mark {
+  margin-bottom: -0.5em;
+  font-weight: bold;
+  font-size: 50px;
+  color: dark;
+  font-family: "Times New Roman", Georgia, Serif;
+>>>>>>> master
 }
